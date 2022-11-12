@@ -1,4 +1,4 @@
-import { Col, Form, Input, Row } from "reactstrap";
+import { Button, Col, Form, Input, Row } from "reactstrap";
 
 const FeedbackForm = () => {
   return (
@@ -18,8 +18,11 @@ const FeedbackForm = () => {
           className="mt-3"
           placeholder="Nội dung"
           type="textarea"
-          rows="6"
+          rows="4"
         />
+        <Button className="mt-3" color="primary">
+          Gửi góp ý
+        </Button>
       </Form>
     </div>
   );
