@@ -1,4 +1,5 @@
 import { useJsApiLoader, GoogleMap } from "@react-google-maps/api";
+import { Spinner } from "reactstrap";
 
 const center = { lat: 48.8584, lng: 2.2945 };
 
@@ -8,7 +9,11 @@ const Map = () => {
   });
 
   if (!isLoaded) {
-    return <h1>Loading...</h1>;
+    return (
+      <Spinner className="m-5" color="primary">
+        Loading Map...
+      </Spinner>
+    );
   }
 
   return (

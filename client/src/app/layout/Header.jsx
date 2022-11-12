@@ -1,5 +1,5 @@
 import Logo from "../shared/components/Logo";
-import React, { useState } from "react";
+import React from "react";
 import {
   Navbar,
   NavbarBrand,
