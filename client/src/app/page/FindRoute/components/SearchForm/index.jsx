@@ -1,5 +1,4 @@
-import { Form, FormGroup, Input, Label, Row, Col, Button } from "reactstrap";
-import SearchIcon from "../../../../../assets/icons/SearchIcon";
+import { Form, Input, Row, Col, Button } from "reactstrap";
 
 const SearchForm = () => {
   return (

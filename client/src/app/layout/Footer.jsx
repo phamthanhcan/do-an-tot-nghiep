@@ -30,13 +30,13 @@ const Footer = () => {
             <h3>LIÊN HỆ WEBSITE</h3>
             <List>
               <li>
-                <a href="">UBND TP ĐÀ NẴNG</a>
+                <a href="/">UBND TP ĐÀ NẴNG</a>
               </li>
               <li>
-                <a href="">Sở giao thông vận tải</a>
+                <a href="/">Sở giao thông vận tải</a>
               </li>
               <li>
-                <a href="">Sở tài nguyên môi trường</a>
+                <a href="/">Sở tài nguyên môi trường</a>
               </li>
             </List>
           </Col>
