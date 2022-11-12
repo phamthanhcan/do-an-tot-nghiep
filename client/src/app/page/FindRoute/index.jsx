@@ -5,7 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 
 const FindRoute = () => {
   return (
-    <div>
+    <div className="main">
       <Container>
         <Row>
           <Col xs="4">
