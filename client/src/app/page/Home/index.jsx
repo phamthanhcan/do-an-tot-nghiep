@@ -1,7 +1,7 @@
 import IntroduceSlide from "./components/IntroduceSlide";
 import BlogSlide from "./components/BlogSlide";
 import Advertisement from "./components/Advertisement";
-import InteractiveSection from "./components/InteractiveSection";
+import Interactive from "./components/Interactive";
 
 const Home = () => {
   return (
@@ -9,7 +9,7 @@ const Home = () => {
       <IntroduceSlide />
       <BlogSlide />
       <Advertisement />
-      <InteractiveSection />
+      <Interactive />
     </>
   );
 };

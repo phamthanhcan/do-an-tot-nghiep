@@ -10,7 +10,7 @@ const MenuListRoutes = () => {
   return (
     <>
       <h2>DANH SÁCH TUYẾN ĐƯỜNG</h2>
-      <UncontrolledAccordion defaultOpen={["1"]} flush>
+      <UncontrolledAccordion defaultOpen={["1"]}>
         <AccordionItem>
           <AccordionHeader targetId="1">LỘ TRÌNH TỔNG THỂ</AccordionHeader>
           <AccordionBody accordionId="1">
