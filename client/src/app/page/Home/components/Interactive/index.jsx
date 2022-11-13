@@ -2,7 +2,7 @@ import FeedbackForm from "./components/FeedbackForm";
 import FrequentlyQuestions from "./components/FrequentlyQuestions";
 import { Container, Row, Col } from "reactstrap";
 
-const InteractiveSection = () => {
+const Interactive = () => {
   return (
     <Container className="pt-5 pb-5">
       <Row>
@@ -17,4 +17,4 @@ const InteractiveSection = () => {
   );
 };
 
-export default InteractiveSection;
+export default Interactive;
